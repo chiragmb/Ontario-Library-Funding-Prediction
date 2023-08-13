@@ -30,4 +30,3 @@ If implemented, the predictive model and dashboard could provide the following b
 Enable the government to estimate future funding needs for libraries.
 Facilitate strategic decisions, such as determining optimal locations for new libraries based on predicted funding requirements.
 Enhance the government's accuracy in budgeting for funding of Ontario libraries.
-Feel free to copy and paste this formatted content into your README.md file for your GitHub
