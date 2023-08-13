@@ -1,6 +1,33 @@
-focus for this project was to understand the relationship between the funding and other factors collected from various sources and investigate which have the most substantial impact on funding.
-Using this information, the team generated a model to forecast the upcoming year’s funding expectations and a dashboard which would display the features we determined had the greatest impact on funding.
-First data was gathered from multiple sources included from the libraries themselves, the Ontario data website, and the stats Canada website. We then preformed correlation analysis to determine which factors were the most significant. There were over 70 features with correlation higher than 0.8.
-Using these highly correlated features a predictive model was generated which had an underfitting problem. This was addressed by reducing the features further. Then there was an overfitting problem which also required a reduction in features. Our final model was an extra tree regression model with an accuracy of 87%.
-The features selected to be displayed in the dashboard were the current funding amounts, the predicted funding amounts, expenses (due to it making up 4 of the top 5 most correlated features), population (due to being the most significance feature to the predictive model) and the ratio of spending on print vs electronic material (due to the main goal of Ontario public libraries being to provide materials).
-If implemented this predictive model and dashboard could allow the government to estimate future funding needs for libraries, make business decision such as deciding where to build new libraries based on their predicted funding requirements, and help the government more accurately budget for funding of Ontario libraries.
+Project Focus:
+The primary goal of this project was to understand the relationship between funding for libraries and various other factors collected from multiple sources. The aim was to investigate which of these factors have the most substantial impact on library funding.
+
+Data Collection:
+
+Data was gathered from diverse sources, including the libraries themselves, the Ontario data website, and the Stats Canada website.
+Multiple datasets were combined to form a comprehensive pool of information for analysis.
+Correlation Analysis:
+
+Correlation analysis was conducted on the collected data to identify the most significant factors.
+Over 70 features exhibited a correlation higher than 0.8 with funding.
+Predictive Model Generation:
+
+A predictive model was developed using highly correlated features to forecast funding expectations for the upcoming year.
+Initially, the model suffered from underfitting, which was mitigated by further reducing the feature set.
+Subsequently, an overfitting issue arose, necessitating additional feature reduction.
+The final model adopted was an Extra Tree Regression model, achieving an accuracy of 87%.
+Dashboard Creation:
+
+The project team designed a dashboard to visually represent key insights.
+Selected dashboard features:
+Current funding amounts
+Predicted funding amounts
+Expenses (constituting 4 of the top 5 correlated features)
+Population (the most significant feature in the predictive model)
+Ratio of spending on print vs. electronic materials (aligned with the primary goal of Ontario public libraries).
+Potential Impact:
+If implemented, the predictive model and dashboard could provide the following benefits:
+
+Enable the government to estimate future funding needs for libraries.
+Facilitate strategic decisions, such as determining optimal locations for new libraries based on predicted funding requirements.
+Enhance the government's accuracy in budgeting for funding of Ontario libraries.
+Feel free to copy and paste this formatted content into your README.md file for your GitHub
